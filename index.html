@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>🌡Weather App</title>
+  </head>
+  <body>
+    <img src="src/512.jpg" alt="" id="background-img">
+    <div class="container">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col">
+                <input
+                  type="search"
+                  placeholder="Search your city"
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100"
+                  id="search-submit"
+                />
+              </div>
+              <div class="col">
+                <button class="current-location" id="location"><img src="src/geo.png" width="30px"></button>
+              </div>
+            </div>
+          </form>
+          <div class="overview">
+            <div class="row">
+              <div class="col-6">    
+            <h1 id="city"></h1>
+            <br />
+            <img src="src/calendar.png" width="23px"> <span id="date"></span>
+          </div>
+          <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <div class="float-left">
+                  <strong id="temperature"></strong>
+                  <span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+        <div class="info">
+          <div class="row">
+            <div class="col-6"> <img src="" alt="Clear" id="icon" class="float-left" /> </div>
+            <div class="col-6">
+              <ul>
+                <li id="description"></li>
+                <br />
+                <li><img src="src/humidity.png" width="25px"> <span id="humidity"></span>%</li>
+                <li><img src="src/747887.png" width="25px"> <span id="wind"></span> km/h</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+             <div class="weather-forecast" id="forecast"></div>
+        </div>
+      </div>
+    </div>
+    <small>
+          <a
+            href="https://github.com/yevabohos/weather-app"
+            target="_blank"
+            >Open-source code</a
+          >
+          by YevaBohos
+        </small>
+  </body>
+  <script src="src/app.js"></script>
+</html>

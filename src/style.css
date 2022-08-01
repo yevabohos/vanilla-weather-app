@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+}
+#background-img {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  max-width: 100%;
+  min-height: 100%;
+  z-index: -5;
+  background-repeat: repeat;
+  background-attachment: center;
+  background-size: cover;
+}
+li {
+    margin-bottom: 10px;
+}
+#city-list {
+  margin-top: 15px;
+}
+.container {
+  font-family: "Poppins", sans-serif;
+  width: 550px;
+  border-style:hidden;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 410px;
+  margin-top: 30px;
+}
+h1 {
+  color: #42578a;
+  font-size: 38px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+#temperature {
+    padding-left: 40px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(22, 27, 37);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  text-align: center;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.weather-app {
+  padding: 20px;
+  margin-top: 25px;
+  border: 1px solid #161a1e;
+  border-radius: 5px;
+  background-color: rgba(145, 203, 218, 0.307);
+    border-radius: 15px;
+}
+.overview,
+.info {
+  margin-bottom: 20px;
+  padding: 5px 0 0 20px;
+}
+.form-control {
+    width: 220px;
+}
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: #42578a;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: #42578a;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+small {
+    text-align: center;
+    display: block;
+    color: black;
+}
+#description {
+    font-size: 20px;
+    color: #42578a;
+    text-align: center;
+
+}
+#icon {
+    margin: 0 0 0 80px;
+}
+#city-list {
+  padding-top: 20px;
+  text-align: center;
+}
+#location {
+   margin: 5px 5px 5px 5px;
+  display: block;
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 0x 24px;
+  transition: all 200ms ease;
+  cursor: pointer;
+  text-decoration: solid;
+  font-family: "Poppins", sans-serif;
+}
