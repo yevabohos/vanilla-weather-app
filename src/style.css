@@ -26,13 +26,14 @@ li {
   border-width: 2px;
   height: 410px;
   margin-top: 30px;
+  padding: 20px;
 }
 h1 {
-  color: #42578a;
+  color: #050506;
   font-size: 38px;
   font-weight: 100;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 #temperature {
     padding-left: 40px;
@@ -45,9 +46,9 @@ ul {
 li {
   list-style: none;
   margin: 0;
-  padding: 0;
-  color: rgb(22, 27, 37);
-  font-size: 16px;
+  padding: 2px;
+  color: #000;
+  font-size: 14px;
   font-weight: 100;
   line-height: 19px;
   text-align: center;
@@ -60,15 +61,14 @@ li:first-letter {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 0 auto;
+  background-color: #cceefcb9;
+  border-radius: 15px;
 }
 
 .weather-app {
   padding: 20px;
   margin-top: 25px;
-  border: 1px solid #161a1e;
-  border-radius: 5px;
-  background-color: rgba(145, 203, 218, 0.307);
-    border-radius: 15px;
+  border-radius: 15px;
 }
 .overview,
 .info {
@@ -85,7 +85,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: #42578a;
+  color: #050507;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -98,7 +98,7 @@ li:first-letter {
 }
 
 .weather-temperature .active {
-  color: #42578a;
+  color: #030304;
   cursor: default;
 }
 
@@ -131,28 +131,47 @@ small {
 }
 #description {
     font-size: 20px;
-    color: #42578a;
+    color: #050608;
     text-align: center;
 
 }
 #icon {
-    margin: 0 0 0 80px;
+    margin: 0 0 0 30px;
 }
 #city-list {
   padding-top: 20px;
   text-align: center;
 }
 #location {
-   margin: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
   display: block;
   text-align: center;
   border: none;
-  background: transparent;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 18px;
   padding: 0x 24px;
   transition: all 200ms ease;
   cursor: pointer;
   text-decoration: solid;
   font-family: "Poppins", sans-serif;
+  background-color: transparent;
+}
+#search-submit {
+  background-color: #cce2fc;
+  border-radius: 15px;
+  box-shadow: rgba(44, 127, 187, 0.2);
+  color: rgb(10, 13, 15);
+  cursor: pointer;
+  width: 10px;
+  height: 35px;
+  display: block;
+  padding: 7px 15px;
+  text-align: center;
+
+  border: 0;
+  font-size: 14px;
+}
+#temperature {
+    padding-left: 90px;
+    padding-top: 20px;
 }
