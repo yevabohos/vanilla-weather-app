@@ -61,7 +61,7 @@ li:first-letter {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 0 auto;
-  background: linear-gradient(to top, rgb(251, 194, 235) 0%, rgb(166, 193, 238) 100%);
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
   border-radius: 15px;
 }
 

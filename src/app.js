@@ -91,7 +91,7 @@ function searchLocation(position) {
   let lat = position.coords.latitude;
   let lon = position.coords.longitude;
   let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
-  axios.get(url).then(displayWeather);
+  axios.get(url).then(displayTemperature);
 }
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
